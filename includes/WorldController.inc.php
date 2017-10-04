@@ -2,10 +2,10 @@
 /*
  * This is a CONTROLLER
  */
-require_once './includes/TelevisionI.inc.php';
-require_once './includes/Television.inc.php';
+require_once './includes/WorldIf.inc.php';
+require_once './includes/WorldModel.inc.php';
 
-class TelevisionRC {
+class WorldController {
     private $model;
 
     public function __construct(Television $model) {

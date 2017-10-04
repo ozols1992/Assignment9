@@ -7,7 +7,10 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/includes/TelevisionI.inc.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/includes/TelevisionRC.inc.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/includes/TelevisionV1.inc.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/DbP.inc.php" afterPath="$PROJECT_DIR$/includes/DbP.inc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/WorldController.inc.php" afterPath="$PROJECT_DIR$/includes/WorldController.inc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/WorldIf.inc.php" afterPath="$PROJECT_DIR$/includes/WorldIf.inc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/WorldModel.inc.php" afterPath="$PROJECT_DIR$/includes/WorldModel.inc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/WorldView1.inc.php" afterPath="$PROJECT_DIR$/includes/WorldView1.inc.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,12 +31,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WorldController.inc.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WorldController.inc.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/WorldController.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="231">
+              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WorldIf.inc.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/WorldIf.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WorldModel.inc.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/WorldModel.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WorldView1.inc.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/includes/WorldView1.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+              <folding>
+                <marker date="1507103342045" expanded="true" signature="332:1140" ph="..." />
+                <marker date="1507103342045" expanded="true" signature="389:1111" ph="..." />
+                <marker date="1507103342045" expanded="true" signature="417:518" ph="..." />
+                <marker date="1507103342045" expanded="true" signature="546:731" ph="..." />
+                <marker date="1507103342045" expanded="true" signature="759:952" ph="..." />
+                <marker date="1507103342045" expanded="true" signature="980:1081" ph="..." />
+                <marker date="1507103342045" expanded="true" signature="1431:1653" ph="..." />
+                <marker date="1507103342045" expanded="true" signature="1459:1624" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,6 +101,10 @@
         <option value="$PROJECT_DIR$/includes/Television.inc.php" />
         <option value="$PROJECT_DIR$/includes/DbP.inc.php" />
         <option value="$PROJECT_DIR$/includes/WorldIf.php" />
+        <option value="$PROJECT_DIR$/includes/WorldController.inc.php" />
+        <option value="$PROJECT_DIR$/includes/WorldIf.inc.php" />
+        <option value="$PROJECT_DIR$/includes/WorldModel.inc.php" />
+        <option value="$PROJECT_DIR$/includes/WorldView1.inc.php" />
       </list>
     </option>
   </component>
@@ -69,7 +115,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="5" />
     <option name="y" value="54" />
     <option name="width" value="1400" />
@@ -137,15 +183,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1507099352971</updated>
-      <workItem from="1507099354185" duration="3043000" />
+      <workItem from="1507099354185" duration="3346000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3043000" />
+    <option name="totallyTimeSpent" value="3346000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -182,14 +228,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
           <caret line="59" column="65" lean-forward="true" selection-start-line="59" selection-start-column="65" selection-end-line="59" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/DbH.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -234,6 +272,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/includes/DbH.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/includes/DbP.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -244,9 +290,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/WorldController.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="231">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/WorldIf.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/WorldModel.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/WorldView1.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding>
+            <marker date="1507103342045" expanded="true" signature="332:1140" ph="..." />
+            <marker date="1507103342045" expanded="true" signature="389:1111" ph="..." />
+            <marker date="1507103342045" expanded="true" signature="417:518" ph="..." />
+            <marker date="1507103342045" expanded="true" signature="546:731" ph="..." />
+            <marker date="1507103342045" expanded="true" signature="759:952" ph="..." />
+            <marker date="1507103342045" expanded="true" signature="980:1081" ph="..." />
+            <marker date="1507103342045" expanded="true" signature="1431:1653" ph="..." />
+            <marker date="1507103342045" expanded="true" signature="1459:1624" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

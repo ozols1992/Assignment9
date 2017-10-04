@@ -1,5 +1,5 @@
 <?php
-interface TelevisionI {
+interface WorldIf {
     public function tvOnOff();
     public function chUp();
     public function chDown();

@@ -4,9 +4,8 @@
  */
 require_once './includes/DbP.inc.php';
 require_once './includes/DbH.inc.php';
-require_once './includes/Media.inc.php';
 
-class Television implements TelevisionI {
+class WorldModel implements WorldIf {
     private $on;      // true if on, otherwise false
     private $channel; // integer with current channel number
     private $volume;  // integer with current volume level 
