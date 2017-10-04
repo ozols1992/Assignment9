@@ -20,21 +20,15 @@ class WorldModel implements WorldIf {
      * normally you'd read input params
      * or a database
      */
-    public function __construct() {
-        $this->on = isset($_SESSION['on']) ? $_SESSION['on'] : TRUE;
-        $this->channel = isset($_SESSION['channel']) ? $_SESSION['channel'] : 1;
-        $this->volume = isset($_SESSION['volume']) ? $_SESSION['volume'] : 10;
-        $this->mute = isset($_SESSION['mute']) ? $_SESSION['mute'] : FALSE;
-        $this->populateMedia($this->getChannel(), DbH::getDbH());
+
+
+    public function getDistrict() {
+        return $this->district;
     }
 
-    public function getTvOnOff() {
-        return $this->on;
-    }
+    public function setDistrict() {
+        $this->district;
 
-    public function tvOnOff() {
-        $this->on = $this->on ? FALSE : TRUE;
-        $this->saveState();
     }
 
     public function getChannel() {
