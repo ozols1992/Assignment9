@@ -8,5 +8,17 @@
 
 class countryLanguage
 {
+    private $country;
+    private $language;
+    private $isOfficial;
+    private $percentage;
+
+    public function __construct($county , $language, $isOfficial, $percentage)
+    {
+        $this->country = $county;
+        $this->language = $language;
+        $this->isOfficial = $isOfficial;
+        $this->percentage = $percentage;
+    }
 
 }
