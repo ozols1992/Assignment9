@@ -19,9 +19,10 @@
           <?php
           $c = new City('Denmark', 'me', 'DK', 'Kolding', '100' );
 
-          echo $c;
+          echo $c
 
-    ?>         
+
+          ?>
       </div>           
   </body>
 </html>

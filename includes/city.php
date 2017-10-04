@@ -6,14 +6,13 @@
  * Time: 11:02
  */
 
-class city  {
+class city {
 
     private $country;
     private $district;
     private $id;
     private $name;
     private $population;
-
 
 
     public function __construct($country, $district, $id, $name, $population ) {
@@ -43,13 +42,6 @@ class city  {
 
     public function getPopulation() {
         return $this->population;
-    }
-
-    public function __toString()
-    {
-        return sprintf("%s, %s, %s, %s, %s\n"
-        ,$this->getCountry(),$this->getdistrict(), $this->getid(), $this->getname(), $this->getpopulation());
-
     }
 
 }
