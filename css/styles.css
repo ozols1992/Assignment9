@@ -1,0 +1,30 @@
+body {
+    background-color: #666;
+    color: #fff;
+    font-family: sans-serif;
+    margin: 5% 0 0 0;
+    top: 100px;
+    text-align: center;
+}
+
+.box {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.state {
+    border-bottom: 1px solid #fff;
+}
+
+button {
+    background-color: #666;
+    color: #fff;
+    border: 1.5px solid #fff;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #333;
+}
+
