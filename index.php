@@ -1,12 +1,11 @@
 <?php
     /*
-     * This is the application
-     */
+* This is the application
+*/
     session_start();
-    require_once './includes/TelevisionI.inc.php';
-    require_once './includes/Television.inc.php';   // the model
-    require_once './includes/TelevisionV1.inc.php'; // a view
-    require_once './includes/TelevisionRC.inc.php'; // a controller
+
+    require_once './includes/City.php';   // the model
+
 ?>
 <!doctype html>
 <html>
@@ -18,13 +17,10 @@
   <body>       
       <div class="box">
           <?php
-    $model = new Television();          // init the model
-    $rc = new TelevisionRC($model);     // init a controller
-    $view1 = new TelevisionV1($model);  // init a view
-    if (isset($_POST)) {                // did we receive data?
-        $rc->action($_POST);            // the controller deals with it
-    }
-    printf("%s\n", $view1->display0());      // use the view, display state
+          $c = new City('Denmark', 'me', 'DK', 'Kolding', '100' );
+
+          echo $c;
+
     ?>         
       </div>           
   </body>
