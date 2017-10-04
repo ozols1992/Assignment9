@@ -5,7 +5,7 @@
 require_once './includes/WorldIf.inc.php';
 require_once './includes/WorldModel.inc.php';
 
-class TelevisionV1 {
+class WorldView1 {
     private $model;
 
     public function __construct(WorldModel $model) {
