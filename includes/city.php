@@ -45,6 +45,19 @@ class city {
 
 }
     $dbh = DbH::getDbH();
-    $sql = 'select countrycode from city';
-    echo $sql();
+$sql = "select name";
+$sql .= " from city";
+try {
+    $q = $dbh->prepare($sql);
+    $q->execute();
+    print("<table>\n");
+    while ($row = $q->fetch()) {
+        printf("<tr><td>%s</td><td>%s</td><td class='num'>%s</td></tr>\n",
+            $row['name'], $row['continent'],
+            number_format($row['population']));
+    }
+    print("</table>\n");
+} catch(PDOException $e) {
+    printf("<p>%s</p>\n", $e->getMessage());
+}
 
