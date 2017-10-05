@@ -3,7 +3,7 @@
         require_once '../includes/DbP.inc.php';
         require_once '../includes/DbH.inc.php';
 
-class city {
+class city extends WorldModel implements WorldIf {
 
     private $country;
     private $district;
@@ -41,8 +41,30 @@ class city {
         return $this->population;
     }
 
+    public function update() {
+        //insert code here
+    }
+    public function delete() {
+        // add text here
+    }
+    public function create(){
+        $sql = 'insert into city (id, name, countrycode, district, population)';
+        $sql .= ' values(:id, :name, :countrycode, :district, :population);';
+        try {
+            $q = $dbh->prepare($sql);
+            $q->bindValue(':id', $id);
+            $q->bindValue(':name', $name);
+            $q->bindValue(':countrycode', $countrycode);
+            $q->bindValue(':district', $district);
+            $q->bindValue(':population', $population);
+            $q->execute();
 
+        } catch(PDOException $e) {
+            die("Posting failed. Call a friend.<br/>".$e->getMessage());
+        }
+        echo "Hi there";
 
+    }
 
 
 }
