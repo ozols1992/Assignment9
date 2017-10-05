@@ -1,10 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Kevin
- * Date: 04-10-2017
- * Time: 11:02
- */
+        require_once '../includes/WorldModel.inc.php';
+        require_once '../includes/DbP.inc.php';
+        require_once '../includes/DbH.inc.php';
 
 class city {
 
@@ -44,4 +41,10 @@ class city {
         return $this->population;
     }
 
+
+
 }
+    $dbh = DbH::getDbH();
+    $sql = 'select countrycode from city';
+    echo $sql();
+
