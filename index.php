@@ -4,7 +4,7 @@
 */
     session_start();
 
-    require_once './includes/City.php';   // the model
+    require_once './includes/city.php';   // the model
 
 ?>
 <!doctype html>

@@ -45,19 +45,23 @@ class city {
 
 }
     $dbh = DbH::getDbH();
-$sql = "select name";
-$sql .= " from city";
-try {
-    $q = $dbh->prepare($sql);
-    $q->execute();
-    print("<table>\n");
-    while ($row = $q->fetch()) {
-        printf("<tr><td>%s</td><td>%s</td><td class='num'>%s</td></tr>\n",
-            $row['name'], $row['continent'],
-            number_format($row['population']));
+    $sql = "select name";
+    $sql .= " from city";
+    try
+    {
+        $q = $dbh->prepare($sql);
+        $q->execute();
+        print("<table>\n");
+        while ($row = $q->fetch())
+        {
+            printf("</td><td class='name'>%s</td></tr>\n",
+                $row['name']);
+        }
+
+        print("$row\n");
+        } catch
+    (PDOException $e) {
+        printf("<p>%s</p>\n", $e->getMessage());
     }
-    print("</table>\n");
-} catch(PDOException $e) {
-    printf("<p>%s</p>\n", $e->getMessage());
-}
+
 
